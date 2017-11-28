@@ -19,13 +19,16 @@ I guess you know how to handle windows environment PATH, for the below instructi
 
 * download the [scons](http://scons.org/pages/download.html) and install it for python 2.7
 
-## 1.4 install python3 and pyQt5
+## 1.4 install anaconda3
 
-* download this [win32 python3](https://www.python.org/ftp/python/3.6.3/python-3.6.3.exe) and install it.
-
-* dowhload this [win32 pyQt5](https://pypi.python.org/packages/03/03/f42a3f893c4f7b08dfc3f6187b2db5558ee3ca194180bbd8b85b8721e825/PyQt5-5.9.1-5.9.2-cp35.cp36.cp37-none-win32.whl#md5=c88436dda54af7c759fa149d76eeca87) and install it.
+* download this [win32 anaconda3](https://repo.continuum.io/archive/Anaconda3-5.0.1-Windows-x86.exe) and install it as "C:\Python36".
 
 * install [bitarray](https://pypi.python.org/packages/0a/da/9f61d28a20c42b4963334efacfd257c85150ede96d0cd2509b37da69da47/bitarray-0.8.1.tar.gz) and [pyserial](https://pypi.python.org/packages/1f/3b/ee6f354bcb1e28a7cd735be98f39ecf80554948284b41e9f7965951befa6/pyserial-3.2.1.tar.gz#md5=7142a421c8b35d2dac6c47c254db023d) for python3 for [as.one.py](https://github.com/parai/as/tree/master/com/as.tool/as.one.py) tool
+
+```sh
+C:\Python36\Script\pip install bitarray
+C:\Python36\Script\pip install pyserial
+```
 
 # 2. prebuild of [asqemu](https://github.com/parai/as/tree/master/com/as.tool/qemu) for ascore arm simulation
 
