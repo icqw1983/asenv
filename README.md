@@ -30,6 +30,8 @@ C:\Python36\Script\pip install bitarray
 C:\Python36\Script\pip install pyserial
 ```
 
+* install [peak-can driver](http://www.peak-system.com/fileadmin/media/files/PEAK-System_Driver-Setup.zip) for as.one.py tool as it require PCANBasic.dll
+
 # 2. prebuild of [asqemu](https://github.com/parai/as/tree/master/com/as.tool/qemu) for ascore arm simulation
 
 * It was possible to build it out through this [PKGBUILD](https://github.com/parai/as/blob/master/com/as.tool/qemu/PKGBUILD) on msys2-w64
