@@ -21,13 +21,13 @@ I guess you know how to handle windows environment PATH, for the below instructi
 
 ## 1.4 install anaconda3
 
-* download this [win32 anaconda3](https://repo.continuum.io/archive/Anaconda3-5.0.1-Windows-x86.exe) and install it as "C:\Python36".
+* download this [win32 anaconda3](https://repo.continuum.io/archive/Anaconda3-5.0.1-Windows-x86.exe) and install it as "C:\Anaconda3".
 
 * install [bitarray](https://pypi.python.org/packages/0a/da/9f61d28a20c42b4963334efacfd257c85150ede96d0cd2509b37da69da47/bitarray-0.8.1.tar.gz) and [pyserial](https://pypi.python.org/packages/1f/3b/ee6f354bcb1e28a7cd735be98f39ecf80554948284b41e9f7965951befa6/pyserial-3.2.1.tar.gz#md5=7142a421c8b35d2dac6c47c254db023d) for python3 for [as.one.py](https://github.com/parai/as/tree/master/com/as.tool/as.one.py) tool
 
 ```sh
-C:\Python36\Scripts\pip install bitarray
-C:\Python36\Scripts\pip install pyserial
+C:\Anaconda3\Scripts\pip install bitarray
+C:\Anaconda3\Scripts\pip install pyserial
 ```
 
 * install [peak-can driver](http://www.peak-system.com/fileadmin/media/files/PEAK-System_Driver-Setup.zip) for as.one.py tool as it require PCANBasic.dll
